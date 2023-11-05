@@ -1,9 +1,7 @@
 import React from 'react';
 import {useEffect, useState} from 'react'
 import axios from 'axios';
-
 import { Button, List, ListItem } from '@mui/material';
-import UploadInvoices from './UploadInvoices';
 
 
 
@@ -28,7 +26,7 @@ function DownloadInvoices() {
   const handleDownload = (fileName: string) => {
     //  Create a link to download the invoice
     const link = document.createElement('a');
-    link.href = `/api/download/${fileName}`; // Anpassa sökvägen till din nedladdningsruta på servern
+    link.href = `/api/download/${fileName}`; 
     link.download = fileName;
     document.body.appendChild(link);
     link.click();
@@ -38,7 +36,7 @@ function DownloadInvoices() {
   return (
     <div>
     <List>
-      {data !== null ? (
+      {/* {data !== null ? (
         data.map(invoice => (
           <ListItem key={invoice.id}>
             {invoice.name}
@@ -53,7 +51,7 @@ function DownloadInvoices() {
         ))
       ) : (
         <p>Laddar data...</p>
-      )}
+      )} */}
     </List>
   </div>
   );
