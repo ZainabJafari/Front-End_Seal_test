@@ -1,0 +1,36 @@
+.navbar{
+    width: 200px;
+    height: 100vh;
+    background-color: #06263e; 
+    float: left;
+}
+.select{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid;
+    color: #45525f;
+    p{
+        color: #45525f;
+    }
+}
+.part-two{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.nav-text{
+    color: #45525f;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.text-des{
+    color: #45525f;
+    margin: 2px;
+
+}
+.nav-text-p-management{
+    color: #dde6ed;
+}

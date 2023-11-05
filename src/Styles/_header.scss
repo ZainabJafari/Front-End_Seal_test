@@ -1,0 +1,29 @@
+.header{
+    width: 100%;
+}
+.header-container{
+    float: right;
+}
+.header-container-one{
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.header-container-two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+    width: 150px;
+    margin-top: 10px;
+    background: #47b0e9;
+    color: aliceblue;
+    font-size: 15px;
+}
+.user{
+    background-color: #838a8e;
+    padding: 5px;
+    border-radius: 50%;
+    color: aliceblue;
+}

@@ -1,0 +1,27 @@
+.card-one-container{
+    border: 1px solid rgb(161, 153, 153);
+    width: 900px;
+    padding: 20px;
+    margin: auto;
+    margin: 10px;
+    border-radius: 10px;
+    height: 120px;
+    p{
+        padding: 3px;
+    }
+}
+.price{
+    font-weight: bold;
+    color: rgb(50, 83, 244);
+}
+.card-one-text{
+    font-size: 14px;
+    color: gray;
+}
+.card-one{
+    display: flex;
+    margin: 20px ;
+    padding: 20px;
+    background-color: #F2F5F9;
+    width: 80%;
+}

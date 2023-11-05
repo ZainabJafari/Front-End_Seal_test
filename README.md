@@ -1,7 +1,34 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  # project seal fronend
 
+## User Instructions
+
+- To upload an invoice, click on "Upload Invoice" and select the file you want to upload.
+
+- To download an invoice, click on "Download" next to the invoice name.
+
+- To add a credit card, go to "Add Credit Card" and enter the card information.
+
+## Technologies and Tools
+
+- React
+- TypeScript
+- Material-UI (MUI)
+______________________________
+# backend 
+## `npm run dev`
+## on http://localhost:8080
+
+## Technologies and Tools
+
+- express
+- mpngoose
+
+
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ 
 ## Available Scripts
 
 In the project directory, you can run:

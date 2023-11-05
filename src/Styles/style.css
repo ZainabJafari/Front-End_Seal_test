@@ -1,0 +1,161 @@
+.navbar {
+  width: 200px;
+  height: 100vh;
+  background-color: #06263e;
+  float: left;
+}
+
+.select {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid;
+  color: #45525f;
+}
+.select p {
+  color: #45525f;
+}
+
+.part-two {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.nav-text {
+  color: #45525f;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.text-des {
+  color: #45525f;
+  margin: 2px;
+}
+
+.nav-text-p-management {
+  color: #dde6ed;
+}
+
+.header {
+  width: 100%;
+}
+
+.header-container {
+  float: right;
+}
+
+.header-container-one {
+  width: 170px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-container-two {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 7px;
+  width: 150px;
+  margin-top: 10px;
+  background: #47b0e9;
+  color: aliceblue;
+  font-size: 15px;
+}
+
+.user {
+  background-color: #838a8e;
+  padding: 5px;
+  border-radius: 50%;
+  color: aliceblue;
+}
+
+.card-one-container {
+  border: 1px solid rgb(161, 153, 153);
+  width: 900px;
+  padding: 20px;
+  margin: auto;
+  margin: 10px;
+  border-radius: 10px;
+  height: 120px;
+}
+.card-one-container p {
+  padding: 3px;
+}
+
+.price {
+  font-weight: bold;
+  color: rgb(50, 83, 244);
+}
+
+.card-one-text {
+  font-size: 14px;
+  color: gray;
+}
+
+.card-one {
+  display: flex;
+  margin: 20px;
+  padding: 20px;
+  background-color: #F2F5F9;
+  width: 80%;
+}
+
+.payment {
+  background-color: #F2F5F9;
+  padding: 10px;
+}
+.payment p {
+  font-size: 14px;
+  color: gray;
+  display: inline-block;
+  margin: 0px 20px 0px 100px;
+}
+
+.payment-rad {
+  background-color: #F2F5F9;
+  border-bottom: 1px solid gray;
+  padding: 2px;
+}
+.payment-rad :first-child {
+  color: black;
+}
+.payment-rad p {
+  color: gray;
+  display: inline-block;
+  margin: 10px 0px 0px 90px;
+}
+.payment-rad .payment-text {
+  color: #108e14;
+}
+
+.card-input {
+  background-color: white;
+  box-shadow: 3px 3px 5px 5px rgb(231, 230, 230);
+  display: grid;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+  padding: 10px;
+}
+.card-input input {
+  padding: 10px;
+  width: 300px;
+  margin: 3px;
+}
+.card-input button {
+  padding: 10px;
+  width: 300px;
+  margin: 10px;
+}
+.card-input h2 {
+  margin: 10px 10px 10px 0px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}/*# sourceMappingURL=style.css.map */

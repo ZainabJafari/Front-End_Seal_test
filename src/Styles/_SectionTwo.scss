@@ -1,0 +1,27 @@
+.payment {
+    background-color: #F2F5F9;
+    padding: 10px;
+    p {
+        font-size: 14px;
+        color: gray;
+        display: inline-block;
+        margin: 0px 20px 0px 100px;
+    }
+}
+.payment-rad {
+    background-color: #F2F5F9;
+    border-bottom: 1px solid gray;
+    padding: 2px;
+    :first-child{
+        color: black;
+    }
+
+    p{
+        color: gray;
+        display: inline-block;
+        margin: 10px 0px 0px 90px;
+    }
+    .payment-text{
+        color: #108e14;
+    }
+}
